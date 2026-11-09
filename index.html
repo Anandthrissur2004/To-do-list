@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>To-do List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>To-do List</h1>
+    <form id="task-form">
+      <label for="task-input">New task</label>
+      <input id="task-input" class="task-input" type="text" placeholder="What needs doing?" required>
+      <button type="submit">Add</button>
+    </form>
+    <label for="task-filter">Show:</label>
+    <select id="task-filter">
+      <option value="all">All tasks</option>
+      <option value="pending">Pending</option>
+      <option value="completed">Completed</option>
+    </select>
+    <ul id="task-list" aria-label="Tasks"></ul>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

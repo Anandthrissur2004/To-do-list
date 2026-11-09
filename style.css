@@ -1,0 +1,66 @@
+body {
+  max-width: 520px;
+  margin: 48px auto;
+  padding: 0 16px;
+  color: #222;
+  font: 16px/1.5 system-ui, sans-serif;
+}
+
+h1 {
+  margin-bottom: 16px;
+}
+
+form {
+  display: flex;
+  gap: 8px;
+}
+
+input[type="text"] {
+  flex: 1;
+  min-width: 0;
+  padding: 10px;
+  font: inherit;
+}
+
+button {
+  padding: 8px 12px;
+  font: inherit;
+  cursor: pointer;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+select {
+  margin: 12px 0;
+  padding: 6px;
+  font: inherit;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+li span {
+  flex: 1;
+}
+
+li.completed span {
+  color: #666;
+  text-decoration: line-through;
+}
+
+.task-status {
+  color: #555;
+}
+
+.delete-button {
+  color: #a00;
+}
+
